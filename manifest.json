@@ -6,7 +6,7 @@
         {
           "matches": [
             "https://www.twitch.tv/popout/*/extensions/*/panel", // Original main page URL pattern
-            "https://*.ext-twitch.tv/*", // pattern for both iframes source URLs
+            "https://*.ext-twitch.tv/*" // pattern for both iframes source URLs
           ],
           "js": ["content-final.js"],
           "run_at": "document_start", // Other options document_idle document_end
