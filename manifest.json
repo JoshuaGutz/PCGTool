@@ -5,8 +5,8 @@
       "content_scripts": [
         {
           "matches": [
-            "https://www.twitch.tv/popout/*/extensions/*/panel", // Original main page URL pattern
-            "https://*.ext-twitch.tv/*" // pattern for both iframes source URLs
+            "https://www.twitch.tv/popout/*/extensions/pm0qkv9g4h87t5y6lg329oam8j7ze9/panel", // pattern for main URL of extension (deemonrider)
+            "https://*.ext-twitch.tv/*" // pattern for both source iframe URLs of extension
           ],
           "js": ["content.js"],
           "run_at": "document_start", // Other options document_idle document_end
