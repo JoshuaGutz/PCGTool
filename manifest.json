@@ -1,0 +1,25 @@
+{
+      "manifest_version": 3,
+      "name": "Extension for PCG Extension",
+      "version": "1.0",
+      "content_scripts": [
+        {
+          "matches": [
+            "https://www.twitch.tv/popout/*/extensions/*/panel", // Original main page URL pattern
+            "https://*.ext-twitch.tv/*", // Add pattern for the iframe's source URL
+            "https://supervisor.ext-twitch.tv/supervisor/v1/index.html" // Add patterns for any other relevant iframe URLs
+            // Add as many URL patterns as needed
+          ],
+
+          // "js": ["content.js"],
+          // "js": ["content-log.js"],
+          // "js": ["content-MutationObserver.js"],
+          "js": ["content-final.js"],
+
+          "run_at": "document_start",
+          // "run_at": "document_idle",
+          // "run_at": "document_end",
+          "all_frames": true
+        }
+      ]
+    }
