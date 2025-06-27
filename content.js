@@ -101,7 +101,7 @@ const contentToHide = [
   "Fantasy Ball",
   "Fast Ball",
   "Feather Ball",
-  "Friend Ball",
+  // "Friend Ball",
   "Frozen Ball",
   "Geo Ball",
   // "Great Cherish Ball",
@@ -140,7 +140,7 @@ console.log(`[Content Script] Starting script in frame: ${window.location.href}`
 function applyHidingLogic(scopeElement) {
   // Select target elements (the innermost div with the text content) within the scope
   // Uses the full selector path. querySelectorAll on an element searches only its descendants.
-  const textContentElements = scopeElement.querySelectorAll('.item-grid > div > .item-entry-button > span.item-entry-button__name > div');
+  const textContentElements = scopeElement.querySelectorAll('.item-grid > div > .item-entry-button > span.item-entry-button__name ');
 
   // console.log(`[Content Script] Applying hiding logic within scope:`, scopeElement); // Too frequent log?
   if (textContentElements.length > 0) {
