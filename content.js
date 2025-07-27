@@ -95,24 +95,24 @@
 const contentToHide = [
   "Basic Ball",
   "Beast Ball",
-  // "Cherish Ball",
+  "Cherish Ball",
   "Cipher Ball",
-  // "Clone Ball",
+  "Clone Ball",
   "Fantasy Ball",
   "Fast Ball",
   "Feather Ball",
-  "Friend Ball",
+  // "Friend Ball",
   "Frozen Ball",
   "Geo Ball",
-  // "Great Cherish Ball",
+  "Great Cherish Ball",
   "Heal Ball",
-  "Heavy Ball",
-  "Level Ball",
+  // "Heavy Ball",
+  // "Level Ball",
   "Luxury Ball",
   "Mach Ball",
   "Magnet Ball",
   // "Master Ball",
-  // "Nest Ball",
+  "Nest Ball",
   "Net Ball",
   "Night Ball",
   "Phantom Ball",
@@ -124,7 +124,7 @@ const contentToHide = [
   "Sun Ball",
   // "Timer Ball",
   // "Ultra Ball",
-  // "Ultra Cherish Ball"
+  "Ultra Cherish Ball"
   // Add all the exact text contents you want to hide here.
   // Remember this list is case-sensitive and whitespace-sensitive.
 ];
